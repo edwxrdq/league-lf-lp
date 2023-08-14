@@ -13,6 +13,26 @@ export default function aboutPage() {
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Edward
                 </p>
+            </div> 
+            <div className="left-0 top-0 flex w-full justify-start font-mono text-md lg:flex">
+                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                    Definitely the best player in the group chat, #sorrynotsorry.
+                    <br></br>
+                    <br></br>
+                    With several years committed to this hell called League of Legends, I've played in different roles but found most of my success and enjoyment in either roles for the bot lane. Peaking in Masters, I currently float around Diamond with a lack of motivation to maintain a grind for the game, but truly 
+                    enjoy playing with my friends! Some things are better with the companionship of others; whether it be winning or losing, finding your person(s) to play with is the idea that we are creating this project around. (=
+
+                    <br></br>
+                    <br></br>
+                    (maybe last part to move or build upon for page describing what the website is about but will keep it for now)
+                </p>
+            </div>
+
+            <br></br>
+            <br></br>
+
+            <div>
+
             </div>
 
             <div className="left-0 top-0 flex w-full justify-start font-mono text-3xl lg:flex">
