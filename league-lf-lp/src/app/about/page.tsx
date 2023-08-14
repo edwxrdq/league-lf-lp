@@ -9,14 +9,29 @@ export default function aboutPage() {
                 </p>
             </div>
 
-            <div className="right-0 flex w-full justify-end font-mono text-3xl lg:flex">
+            <div>
+            <br></br>
+            </div>
+
+            <div className="left-0 top-0 flex w-full justify-start font-mono text-3xl lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Edward
                 </p>
-            </div> 
+            </div>
+            
+            <div className="left-0 top-0 flex w-full justify-start font-mono text-3xl lg:flex">
+                <Image
+                    src="/EdwardPic.JPG"
+                    alt="Edward Picture"
+                    className="lg:rounded-xl border-b border-gray-300"
+                    width={300}
+                    height={24}
+                />
+            </div>
+
             <div className="left-0 top-0 flex w-full justify-start font-mono text-md lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Definitely the best player in the group chat, #sorrynotsorry.
+                    Definitely the best player in the group chat, #sorrynotsorry
                     <br></br>
                     <br></br>
                     With several years committed to this hell called League of Legends, I've played in different roles but found most of my success and enjoyment in either roles for the bot lane. Peaking in Masters, I currently float around Diamond with a lack of motivation to maintain a grind for the game, but truly 
@@ -55,14 +70,14 @@ export default function aboutPage() {
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Not the best player out there, but I love to meet new people through the game and have fun! 
                     I originally started this game as an ADC main, but have learned to play other lanes due to having too many ADCs in our friend group :>
-                </p>
-            </div>
-
-            <div className="left-0 top-0 flex w-full justify-start font-mono text-md lg:flex">
-                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                
+                <br></br>
+                <br></br>
+                
                     My favorite champs at the moment are Tahm Kench, Samira, and Zeri!
                 </p>
             </div>
+
             {/* <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-4xl lg:flex">
                 <div>
                     <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
