@@ -13,13 +13,16 @@ export default function aboutPage() {
             <br></br>
             </div>
 
-            <div className="left-0 top-0 flex w-full justify-center font-mono text-3xl lg:flex">
+            <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Edward
+                    <button class="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
+                    {/* if want to add color on hover to button: "hover:bg-blue-200", issue is doesn't fill the whole button */}
+                    <a class="hover:text-red-200" href="https://www.op.gg/summoners/na/solara">Edward</a>
+                    </button>
                 </p>
             </div>
             
-            <div className="left-0 top-0 flex w-full justify-center font-mono text-3xl lg:flex">
+            <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
                 <Image
                     src="/EdwardPic.JPG"
                     alt="Edward Picture"
@@ -29,7 +32,7 @@ export default function aboutPage() {
                 />
             </div>
 
-            <div className="left-0 top-0 flex w-1/2 justify-center font-mono text-md lg:flex">
+            <div className="left-0 top-0 flex w-1/2 justify-center font-sans text-md lg:flex">
                 <p className="fixed left-0 top-0 flex w-1/2 justify-center text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Definitely the best player in the group chat, #sorrynotsorry
                     <br></br>
@@ -50,13 +53,15 @@ export default function aboutPage() {
 
             </div>
 
-            <div className="left-0 top-0 flex w-full justify-center font-mono text-3xl lg:flex">
+            <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Marjorie
+                    <button class="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
+                    <a class="hover:text-red-200" href="https://www.op.gg/summoners/na/solara">Marjorie</a>
+                    </button>
                 </p>
             </div>
 
-            <div className="left-0 top-0 flex w-full justify-center font-mono text-3xl lg:flex">
+            <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
                 <Image
                     src="/MarjPic.JPG"
                     alt="Marj Picture"
@@ -66,7 +71,7 @@ export default function aboutPage() {
                 />
             </div>
 
-            <div className="left-0 top-0 flex w-1/2 justify-center font-mono text-md lg:flex">
+            <div className="left-0 top-0 flex w-1/2 justify-center font-sans text-md lg:flex">
                 <p className="fixed left-0 top-0 flex w-1/2 justify-center text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Not the best player out there, but I love to meet new people through the game and have fun! 
                     I originally started this game as an ADC main, but have learned to play other lanes due to having too many ADCs in our friend group :>
