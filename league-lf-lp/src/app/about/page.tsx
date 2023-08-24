@@ -37,12 +37,8 @@ export default function aboutPage() {
                     Definitely the best player in the group chat, #sorrynotsorry
                     <br></br>
                     <br></br>
-                    With several years committed to this hell called League of Legends, I've played in different roles but found most of my success and enjoyment in either roles for the bot lane. Peaking in Masters, I currently float around Diamond with a lack of motivation to maintain a grind for the game, but truly 
-                    enjoy playing with my friends! Some things are better with the companionship of others; whether it be winning or losing, finding your person(s) to play with is the idea that we are creating this project around. (=
-
-                    <br></br>
-                    <br></br>
-                    (maybe last part to move or build upon for page describing what the website is about but will keep it for now)
+                    With several years committed to this hell called League of Legends, I've played in different roles but found most of my success and enjoyment in either ad or support. Peaking in Masters, I now hover around Diamond with a lack of motivation to maintain a grind for the game and usually
+                    just play with friends! Some things are better with the companionship of others; whether it be winning or losing, finding your person(s) to play with is the idea that inspired the creation of this project.
                 </p>
             </div>
 
