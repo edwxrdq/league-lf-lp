@@ -3,15 +3,20 @@ import Image from 'next/image';
 export default function aboutPage() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="left-0 top-0 flex w-full justify-start font-mono text-4xl lg:flex">
+            
+            <header>
+                <button>
+                <a href="/" class="mt-20 mb-3 text-2xl font-bold hover:text-red-200">LFLP.GG</a> 
+                </button>
+            </header>
+
+            <div className="left-0 top-0 flex w-full justify-start font-mono text-3xl lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Hey! Looking for us?
                 </p>
             </div>
 
-            <div>
             <br></br>
-            </div>
 
             <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
@@ -79,51 +84,6 @@ export default function aboutPage() {
                 </p>
             </div>
 
-            {/* <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-4xl lg:flex">
-                <div>
-                    <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                        Hey! Looking for us?
-                    </p>
-                </div>
-                <div>
-                    <p className="fixed top-0 flex w-full justify-end border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                        Edward
-                    </p>
-                </div>
-            </div> */}
         </main>
     )
 }
-
-/**
- * <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-3xl lg:flex">
-                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Hi! Looking for us?
-                </p>
-            </div>
-
-            <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-3xl lg:flex">
-                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Edward
-                </p>
-            </div>
-
-            <div className="z-10 max-w-5xl w-full justify-between font-mono text-3xl lg:flex">
-                <div>
-                    <div className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 padding-bottom: 20px">
-                        <p>
-                            Marjorie
-                        </p>
-                    </div>
-                    
-                    <Image
-                        src="/MarjPic.JPG"
-                        alt="Marjorie Pic"
-                        className="padding-top: 20px"
-                        width={300}
-                        height={300}
-                        priority
-                    />
-                </div>
-            </div>
- */
