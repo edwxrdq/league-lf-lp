@@ -34,10 +34,16 @@ export default function aboutPage() {
                 </p>
             </div>
             <br></br>
+
+
+
+
+
+
+
             <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
-                <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    <button class="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
-                        <a href="https://www.leagueoflegends.com/en-us/">
+                <p className="fixed w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                        <a href="https://www.leagueoflegends.com/en-us/" target="_blank">
                             <Image
                                 src="/LeagueLogo.png"
                                 alt="League Picture"
@@ -45,8 +51,9 @@ export default function aboutPage() {
                                 width={1200}
                                 height={529}
                             />
+                            
                         </a>
-                    </button>
+  
                 </p>
             </div>
 
@@ -62,6 +69,7 @@ export default function aboutPage() {
                     height={529}
                 />
             </div> */}
+
 
         </main>
     )
