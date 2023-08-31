@@ -35,12 +35,6 @@ export default function aboutPage() {
             </div>
             <br></br>
 
-
-
-
-
-
-
             <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
                 <p className="fixed w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                         <a href="https://www.leagueoflegends.com/en-us/" target="_blank">
@@ -70,6 +64,22 @@ export default function aboutPage() {
                 />
             </div> */}
 
+<header>
+<div class="w-full sm:min-w-container">
+    <div class="flex bg-gray-850 rounded-t">
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-44 rounded-tl text-center first:text-left">Summoner Name</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-left">Position</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-left">Tier</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[82px] text-center first:text-left">Looking for</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-36 text-center first:text-left">Latest Champions</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-40 text-center first:text-left">WinRate</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-left">KDA</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap flex-1 text-center first:text-left">Note</div>
+        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-left">Registered</div>
+        <div class="w-8"></div>
+    </div>
+</div>
+</header>
 
         </main>
     )
