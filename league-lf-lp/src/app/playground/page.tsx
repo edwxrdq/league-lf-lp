@@ -16,7 +16,7 @@ const App = () => {
         <div class="flex  items-center justify-between px-4 py-3">
           <div>
             <p class="h-8 font-bold text-white text-4xl">
-              LFLP.GG
+              <a href="/">LFLP.GG</a>
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export default App;
 
 
 
-            
+
 // to change background color, add "ex: bg-gray-300"
 {/* <div className="left-0 top-0 flex w-full justify-start font-mono text-4xl lg:flex">
   <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
