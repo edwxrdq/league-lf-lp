@@ -3,7 +3,7 @@
 import * as React from 'react';
 
 
-const App = () => {
+const Playground = () => {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
@@ -30,7 +30,7 @@ const App = () => {
   )
 }
 
-export default App;
+export default Playground;
 
 {/* Line 25 is called a ternary operator. 
                 Here is an example of it.
