@@ -64,22 +64,7 @@ export default function aboutPage() {
                 />
             </div> */}
 
-<header>
-<div class="w-full sm:min-w-container">
-    <div class="flex bg-gray-850 rounded-t">
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-44 rounded-tl text-center first:text-left">Summoner Name</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-left">Position</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-left">Tier</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[82px] text-center first:text-left">Looking for</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-36 text-center first:text-left">Latest Champions</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-40 text-center first:text-left">WinRate</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-left">KDA</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap flex-1 text-center first:text-left">Note</div>
-        <div class="text-3xs font-normal text-gray-400 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-left">Registered</div>
-        <div class="w-8"></div>
-    </div>
-</div>
-</header>
+
 
         </main>
     )

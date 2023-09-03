@@ -12,22 +12,38 @@ const Playground = () => {
   
   return (
     <main>
-      <header class="bg-gray-900">
-        <div class="flex  items-center justify-between px-4 py-3">
+      <header className="bg-gray-900">
+
+        <div className="flex items-center justify-between px-4 py-3">
           <div>
-            <p class="h-8 font-bold text-white text-4xl">
+            <p className="h-8 font-bold text-white text-4xl">
               <a href="/">LFLP.GG</a>
             </p>
           </div>
 
           <div>
             <button type="button" onClick={handleOpen}>=</button>
-            {open ? <div>Is Open</div> : <div>Is Closed</div>}
           </div>
+
         </div>
+          
+        <div className='flex items-center justify-end px-4 py-3'>
+          {open ? (
+            <ul className="menu">
+              <li className="menu-item ">
+                <button>
+                  <a href="#" className="block mt-1 px-2 py-1 text-red font-semibold rounded hover:bg-gray-800">LINK 1</a>
+                  <a href="/" className="block mt-1 px-2 py-1 text-red font-semibold rounded hover:bg-gray-800">LINK 2</a>
+                </button>
+              </li>
+            </ul>
+          ) : <div></div>}
+        </div>
+
       </header>
     </main>
   )
+
 }
 
 export default Playground;
@@ -58,7 +74,7 @@ export default Playground;
 
 
 
-// to change background color, add "ex: bg-gray-300"
+{/* // to change background color, add "ex: bg-gray-300" */}
 {/* <div className="left-0 top-0 flex w-full justify-start font-mono text-4xl lg:flex">
   <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
     PLAYGROUND
@@ -139,10 +155,10 @@ export default Playground;
       
 
 
-  // https://tailwindui.com/components/application-ui/elements/dropdowns
+  {/* // https://tailwindui.com/components/application-ui/elements/dropdowns
 
 
   // ~ 7 min, unable to figure out the function portion and running into errors with main
     // here's logic portion, it's just commented out above in a div class:
     // {/* <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4"> */}
-  // https://www.youtube.com/watch?v=5mFGl566wc0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=17&ab_channel=AdamWathan
+  // {/* // https://www.youtube.com/watch?v=5mFGl566wc0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=17&ab_channel=AdamWathan */} */}
