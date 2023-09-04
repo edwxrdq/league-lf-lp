@@ -13,7 +13,6 @@ const Playground = () => {
   return (
     <main>
       <header className="bg-gray-900">
-
         <div className="flex items-center justify-between px-4 py-3">
           <div>
             <p className="h-8 font-bold text-white text-4xl">
@@ -27,20 +26,20 @@ const Playground = () => {
 
         </div>
           
-        <div className='flex items-center justify-end px-4 py-3'>
-          {open ? (
-            <ul className="menu">
-              <li className="menu-item ">
-                <button>
-                  <a href="#" className="block mt-1 px-2 py-1 text-red font-semibold rounded hover:bg-gray-800">LINK 1</a>
-                  <a href="/" className="block mt-1 px-2 py-1 text-red font-semibold rounded hover:bg-gray-800">LINK 2</a>
-                </button>
-              </li>
-            </ul>
-          ) : <div></div>}
-        </div>
-
       </header>
+
+      <div className='bg-gray-900 flex items-center justify-end px-4'>
+        {open ? (
+          <ul className="menu">
+            <li className="menu-item ">
+              <button>
+                <a href="#" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 1</a>
+                <a href="/" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 2</a>
+              </button>
+            </li>
+          </ul>
+        ) : <div></div>}
+      </div>
     </main>
   )
 
