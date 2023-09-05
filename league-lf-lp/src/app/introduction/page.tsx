@@ -2,28 +2,29 @@
 
 import * as React from 'react';
 
-
 const Playground = () => {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
     setOpen(!open);
   };
-  
+
+ 
+
   return (
     <main>
 
         <header className="bg-gray-900">
             <div className="flex items-center justify-between px-4 py-3">
-            <div>
-            <button>
-                <a href="/" class="mt-20 mb-3 text-2xl font-bold font-size-2xl hover:text-red-200">LFLP.GG</a> 
-                </button>
-            </div>
+                <div>
+                    <button>
+                        <a href="/" class="mt-20 mb-3 text-2xl font-bold font-size-2xl hover:text-red-200">LFLP.GG</a> 
+                    </button>
+                </div>
 
-            <div>
-                <button type="button" onClick={handleOpen}>=</button>
-            </div>
+                <div>
+                    <button type="button" onClick={handleOpen}>=</button>
+                </div>
             </div>
         </header>
 
@@ -31,10 +32,10 @@ const Playground = () => {
             {open ? (
             <ul className="menu">
                 <li className="menu-item ">
-                <button>
-                    <a href="#" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 1</a>
-                    <a href="/" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 2</a>
-                </button>
+                    <button>
+                        <a href="#" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 1</a>
+                        <a href="/" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 2</a>
+                    </button>
                 </li>
             </ul>
             ) : <div></div>}
@@ -73,16 +74,15 @@ const Playground = () => {
 
         <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
             <p className="fixed w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    <a href="https://www.leagueoflegends.com/en-us/" target="_blank">
-                        {/* <Image
-                            src="/LeagueLogo.png"
-                            alt="League Picture"
-                            className="lg:rounded-xl border-b border-gray-300"
-                            width={1200}
-                            height={529}
-                        /> */}
-                    </a>
-
+                <a href="https://www.leagueoflegends.com/en-us/" target="_blank">
+                    <img
+                        src="/LeagueLogo.png"
+                        alt="League Picture"
+                        className="lg:rounded-xl border-b border-gray-300"
+                        width={1200}
+                        height={529}
+                    />
+                </a>
             </p>
         </div>
         
