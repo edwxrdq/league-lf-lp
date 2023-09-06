@@ -33,13 +33,34 @@ const Playground = () => {
           <ul className="menu">
             <li className="menu-item ">
               <button>
-                <a href="#" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 1</a>
-                <a href="/" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 2</a>
+                <a href="/introduction" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">INTRODUCTION</a>
+                <a href="/about" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">ABOUT US</a>
               </button>
             </li>
           </ul>
         ) : <div></div>}
       </div>
+
+      <header className="bg-red-900">
+        <div>
+              <div className="items-center border-2 border-white focus:outline-none">
+                  <div className="flex justify-between text-center bg-gray-850 rounded-t">
+                      <button type="button" onClick={handleOpen} className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-44 rounded-tl text-center first:text-center">Summoner Name</button>
+                      <button className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-center">Position</button>
+                      <button className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-center">Tier</button>
+                      <button className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[82px] text-center first:text-center">Looking for</button>
+                      <button className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-40 text-center first:text-center">WinRate</button>
+                      <button className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-center">KDA</button>
+                      <button className="w-8"></button>
+                  </div>
+              </div>
+          </div>
+
+        </header>
+
+
+
+
     </main>
   )
 

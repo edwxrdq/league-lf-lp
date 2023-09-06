@@ -43,11 +43,12 @@ const Playground = () => {
 
         <br></br>
 
-        <div className="left-0 top-0 flex w-full justify-start font-mono text-3xl lg:flex">
+        <div className="left-0 top-0 flex w-full justify-start font-sans text-4xl lg:flex">
             <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                Hey! Looking for us?
+                LOOKING FOR US?
             </p>
         </div>
+
 
         <div className="flex flex-col items-center justify-between p-12">
             <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
