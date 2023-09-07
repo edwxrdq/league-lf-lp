@@ -13,7 +13,7 @@ const Playground = () => {
 
   return (
     <main>
-            
+
         <header className="bg-gray-900">
             <div className="flex items-center justify-between px-4 py-3">
                 <div>
@@ -33,7 +33,7 @@ const Playground = () => {
             <ul className="menu">
                 <li className="menu-item ">
                     <button>
-                        <a href="#" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 1</a>
+                        <a href="/" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 1</a>
                         <a href="/" className="block mt-1 px-2 py-1 font-semibold rounded hover:bg-gray-800">LINK 2</a>
                     </button>
                 </li>
@@ -45,7 +45,51 @@ const Playground = () => {
 
         <div className="left-0 top-0 flex w-full justify-start font-sans text-4xl lg:flex">
             <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                LOOKING FOR US?
+                OUR STORY
+            </p>
+        </div>
+
+        <br></br>
+
+        <div className="left-0 top-0 flex-full justify-left font-sans text-md lg:flex">
+            <p className="fixed left-0 top-0 justify-left text-left border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                With intentions of creating a formidable, presentable project to showcase my coding knowledge, my progress here was made possible through the support and encouragement of my co-creator/co-owner, Marjorie (ign: JaeZhou).
+                <br></br>
+                <br></br>
+                LfLp's purpose is to enhance a player's experience in their ranked or casual games of league. As someone who has played ranked League of Legends for numerous seasons, there has been countless times where synergy lacks in lobbies due to an incompatibility with specific champions or playstyles. Though I
+                understand that this is a part of <i>peak</i> League of Legends gaming, I want players who use this service to be able to define their champion pools, specify what they're looking for in other players, and possibly increase numbers on their friends lists. 
+            </p>
+        </div>
+
+        <br></br>
+
+        <div className="left-0 top-0 flex w-full justify-start font-sans text-4xl lg:flex">
+            <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                GAMES WE SUPPORT
+            </p>
+        </div>
+
+        <br></br>
+
+        <div className="left-0 top-0 flex w-full justify-center font-sans text-3xl lg:flex">
+            <p className="fixed w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                <a href="https://www.leagueoflegends.com/en-us/" target="_blank">
+                    <img
+                        src="/LeagueLogo.png"
+                        alt="League Picture"
+                        className="lg:rounded-xl border-b border-gray-300"
+                        width={1200}
+                        height={529}
+                    />
+                </a>
+            </p>
+        </div>
+        
+        <br></br>
+
+        <div className="left-0 top-0 flex w-full justify-start font-sans text-4xl lg:flex">
+            <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                ABOUT US
             </p>
         </div>
 
@@ -71,8 +115,8 @@ const Playground = () => {
 
             <div className="left-0 top-0 flex w-1/2 justify-center font-sans text-md lg:flex">
                 <p className="fixed left-0 top-0 flex w-1/2 justify-center text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    With several years invested in this game, I've played in different roles but found most of my success and enjoyment in either ad or support. Peaking in Masters, I now hover around Diamond with a lack of motivation to maintain a grind for the game and usually
-                    just play with friends! Some things are better with the companionship of others; whether it be winning or losing, finding your person(s) to play with is the idea that inspired the creation of this project.
+                    Peaking in Masters S10, I now sit in Diamond with a lack of motivation to grind for higher elo. I've played different roles over my seasons but found most of my success in ad or support. These days I usually
+                    play casually with friends or other games like Minecraft!
                 </p>
             </div>
         </div>
@@ -99,7 +143,7 @@ const Playground = () => {
             <div className="left-0 top-0 flex w-1/2 justify-center font-sans text-md lg:flex">
                 <p className="fixed left-0 top-0 flex w-1/2 justify-center text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     Not the best player out there, but I love to meet new people through the game and have fun! 
-                    I originally started this game as an ADC main, but have learned to play other lanes due to having too many ADCs in our friend group :>
+                    I originally started this game as an ADC main, but have learned to play other roles due to many ADCs in our friend group.
                 
                 <br></br>
                 <br></br>
@@ -109,9 +153,14 @@ const Playground = () => {
             </div>
         </div>
 
+
+
+
+
     </main>
   )
 
 }
 
 export default Playground;
+
