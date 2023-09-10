@@ -53,11 +53,8 @@ const Playground = () => {
 
         <div className="left-0 top-0 flex-full justify-left font-sans text-md lg:flex">
             <p className="fixed left-0 top-0 justify-left text-left border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                With intentions of creating a formidable, presentable project to showcase my coding knowledge, my progress here was made possible through the support and encouragement of my co-creator/co-owner, Marjorie (ign: JaeZhou).
-                <br></br>
-                <br></br>
-                LfLp's purpose is to enhance a player's experience in their ranked or casual games of league. As someone who has played ranked League of Legends for numerous seasons, there has been countless times where synergy lacks in lobbies due to an incompatibility with specific champions or playstyles. Though I
-                understand that this is a part of <i>peak</i> League of Legends gaming, I want players who use this service to be able to define their champion pools, specify what they're looking for in other players, and possibly increase numbers on their friends lists. 
+                LfLp's purpose is to enhance a player's experience in their ranked or casual games of league. As someone who has played ranked League of Legends for numerous seasons, there has been countless times where synergy lacks in lobbies due to an incompatibility with certain champions or playstyles. Though I
+                understand that this is a part of <i>peak</i> League of Legends gaming, I want players who use this service to be able to define their champion pools and specify what they're looking for in others, all while having fun in a norms or gaining lp in a ranked game. 
             </p>
         </div>
 
@@ -115,7 +112,7 @@ const Playground = () => {
 
             <div className="left-0 top-0 flex w-1/2 justify-center font-sans text-md lg:flex">
                 <p className="fixed left-0 top-0 flex w-1/2 justify-center text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                    Peaking in Masters S10, I now sit in Diamond with a lack of motivation to grind for higher elo. I've played different roles over my seasons but found most of my success in ad or support. These days I usually
+                    Peaking in Masters S10, I now sit in Diamond with a lack of motivation to grind for higher elo. I've played different roles over my seasons but have found most of my success in ad or support. These days I usually
                     play casually with friends or other games like Minecraft!
                 </p>
             </div>
