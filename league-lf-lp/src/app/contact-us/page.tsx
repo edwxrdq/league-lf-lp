@@ -49,7 +49,7 @@ const Playground = () => {
               Contact Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-sans text-red-200">
-                WE ARE LFL-MF-P BABY LEAVE US SOMETHING GOOD CHUPAPIMUNYANYO!!
+                - be kind -
             </p>
         </div>
 
@@ -101,7 +101,7 @@ const Playground = () => {
 
                 <div className="p-2 w-full"> 
                     <button className="flex mx-auto text-white bg-gray-900 border-0 py-2 px-8 font-semibold rounded hover:bg-gray-800 focus:outline-none text-lg">
-                        Button
+                        Submit
                     </button>
                 </div>
             </div>
