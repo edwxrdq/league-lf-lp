@@ -53,12 +53,12 @@ const Playground = () => {
             </p>
 
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base lg:p-2">
-            LfLp's purpose is to enhance a player's experience in their ranked or casual games of league.
+            LfLp's purpose is to enhance a player's overall experience in their ranked or casual games by defining their champion pools and specify what they're looking for in others.
             As someone who has played ranked League of Legends for numerous seasons, there has been countless
             times where synergy lacks in lobbies due to an incompatibility with certain champions or playstyles.
-            Though Iunderstand that this is a part of <i>peak</i> League of Legends gaming, I want players who 
-            use this service to be able to define their champion pools and specify what they're looking for in others, 
-            all while having fun in a norms or gaining lp in a ranked game. 
+            Though I understand that this is a part of <i>peak</i> League of Legends gaming, players who 
+            use this service should also be able to foster new friendships and connections within the League of Legends community.
+            
             </p>
         </div>
 
@@ -70,7 +70,7 @@ const Playground = () => {
             </h1>
 
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-red-200">
-            - WE ONLY SUPPORT LEAGUE OF LEGENDS AT THE MOMENT, BUT MAY ADD VALORANT IN THE NEAR FUTURE -
+            - we only support league of legends at the moment, but will look to incorporate valorant in the near future -
             </p>
 
 
@@ -97,7 +97,7 @@ const Playground = () => {
             </h1>
 
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-red-200">
-            - SEE CONTACT US PAGE IF YOU'RE INTERESTED IN JOINING -
+            - see contact us page if you're interested in joining -
             </p>
 
 
@@ -164,7 +164,6 @@ const Playground = () => {
 
     </main>
   )
-
 }
 
 export default Playground;

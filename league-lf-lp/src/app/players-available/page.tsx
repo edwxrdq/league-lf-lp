@@ -41,18 +41,24 @@ const Playground = () => {
 
         <br></br>
 
-        <div>
-            <p className="italic flex w-full justify-between text-red200 lg:text-lefttext-4xl">
-                <a>Players Available</a> 
-            </p>
 
-            <br></br>
+        <div>
+            <div className="flex flex-col text-center font-sans w-full mb-12">
+                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+                Collaboration
+                </h1>
+
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-red-200">
+                - looking for teammates - 
+                </p>
+            </div>
 
             <div className="items-center border-2 border-white focus:outline-none">
                 <div className="flex justify-center text-center bg-gray-850 rounded-t">
                     <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-44 rounded-tl text-center first:text-center">Summoner Name</div>
                     <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-center">Position</div>
                     <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[66px] text-center first:text-center">Tier</div>
+                    <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-center">Mode</div>
                     <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-[82px] text-center first:text-center">Looking for</div>
                     <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-40 text-center first:text-center">WinRate</div>
                     <div className="text-3xs font-normal text-gray-200 bg-gray-850 py-2 px-2.5 whitespace-nowrap w-24 text-center first:text-center">KDA</div>
